@@ -1,28 +1,39 @@
 CRM Project
 Overview
-This is a simple CRM (Customer Relationship Management) application built with ASP.NET Core. It allows you to manage user information, including viewing user lists and individual user details.
+This is a simple CRM (Customer Relationship Management) application built with ASP.NET Core. 
 
-Features
+It allows you to manage user information, including viewing user lists and individual user details.
+
+Features:
 View a list of users
 View individual user details
 Basic error handling
-Project Structure
-Controllers
+
+Project Structure:
+
+Controllers:
+
 HomeController.cs: Manages main pages like index, privacy, and error handling.
 UsersController.cs: Handles user-related actions such as listing users and showing user details.
-Data
+
+Data:
 WebAppContext.cs: Entity Framework Core context for managing the Users entity.
 SeedData.cs: Seeds initial data into the database if it's empty.
-Models
+
+Models:
+
 Users.cs: Defines the user entity with properties for Id, Name, and Email.
+
 ErrorViewModel.cs: Defines the error model with properties for RequestId and a boolean to show the RequestId.
+
 Getting Started
-Prerequisites
+
+Prerequisites:
 .NET Core SDK 3.1 or later
 SQL Server
+
 Setup
 Clone the repository:
-
 bash
 Copy code
 https://github.com/mounikagunji/CRM-project.git
