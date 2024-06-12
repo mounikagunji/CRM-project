@@ -54,8 +54,5 @@ Click a user’s name to see their details.
 Contributing
 Contributions are welcome! Fork the repository and submit a pull request for review.
 
-License
-Licensed under the MIT License. See the LICENSE file for details.
-
 Acknowledgements
 Built with ASP.NET Core and Entity Framework Core.
